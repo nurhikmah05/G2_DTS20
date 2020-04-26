@@ -26,3 +26,4 @@ function detail(clicked_id){
     }
 }
 
+

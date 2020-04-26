@@ -2,14 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script language='JavaScript'>
-var txt="TUGAS TIM G-2 PROGATE";
-var speed=300;
-var refresh=null;
-function action() { document.title=txt;
-txt=txt.substring(1,txt.length)+txt.charAt(0);
-refresh=setTimeout("action()",speed);}action();
-</script>
+        <script language='JavaScript'>
+            var txt="TUGAS TIM G-2 PROGATE";
+            var speed=300;
+            var refresh=null;
+            function action() { document.title=txt;
+            txt=txt.substring(1,txt.length)+txt.charAt(0);
+            refresh=setTimeout("action()",speed);}action();
+        </script>
+        <link rel="shortcut icon" href="./assets/img/ic.png">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -196,7 +197,7 @@ refresh=setTimeout("action()",speed);}action();
         </main>
         <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
     </body>
-    <footer>
+    <footer class="animated infinite shake">
         All Rights Reserved. 2020 &copy; G2-Team
     </footer>
     <div id="popup">
@@ -227,7 +228,6 @@ refresh=setTimeout("action()",speed);}action();
             </div>
         </div>
     </div>
-
     <script>
         $('a.scrollup').click(function () {
             $(document.body).animate({scrollTop: 0}, 800);
