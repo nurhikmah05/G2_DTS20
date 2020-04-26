@@ -7,11 +7,11 @@ function detail(clicked_id){
         name.innerHTML =  `Pak Kadri`;
         asal.innerHTML = `Banda Aceh`;
     }else if(clicked_id == 4){
-        img.innerHTML =  `<img class="team2" src="./assets/img/IMG_0337.jpg" alt="">`;
+        img.innerHTML =  `<img class="team2" src="./assets/img/IMG_0337.png" alt="">`;
         name.innerHTML =  `Muhibbur`;
         asal.innerHTML = `Surabaya`;
     }else if(clicked_id == 3){
-        img.innerHTML =  `<img class="team2" src="./assets/img/hikmahh.jpg" alt="">`;
+        img.innerHTML =  `<img class="team2" src="./assets/img/hikmahh.png" alt="">`;
         name.innerHTML =  `Nurhikmah`;
         asal.innerHTML = `Makassar`;
     }else if(clicked_id == 2){
