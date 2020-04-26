@@ -1,9 +1,75 @@
 <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>judul</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .img-fluid{
+                width: 100%;
+                height: 100%;
+                background-image: url(./assets/img/ban.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+
+            .header{
+                overflow: hidden;
+                background:rgba(0,0,0,0.7);
+                width: 100%;
+                height: 80px;
+                position: fixed;
+            }
+
+            .header a{
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 18px;
+                margin-left: 20px;
+            }
+
+            .header a:hover{
+                color:#21c87a;
+                cursor: pointer;
+            }
+
+            .header-left{
+                float: left;
+            }
+
+            .header-left-mobile{
+                float: left;
+                display: none;
+            }
+
+            .header-right {
+                float: right;
+                margin-right: 50px;
+                margin-top: 30px;
+            }
+        </style>
     </head>
     <body>
-        
+        <header class="header">
+            <div class="header-left">
+                <img src="assets/img/logo_default.svg" alt="" style="height: 60px; width: 200px; margin-top: 10px; margin-left: 50px;" >
+            </div>
+            <div class="header-left-mobile">
+                <img src="assets/img/logo_favicon.svg" alt="" style="height: 45px; width: 100px;">
+            </div>
+            <div class="header-right">
+                <a href="" class="head" >Home</a>
+                <a href="" class="head" >About</a>
+                <a href="" class="head" >Faq</a>
+            </div>
+        </header>
+        <div class="img-fluid">
+            coba
+        </div>
+        <main>
+
+        </main>
     </body>
 </html>
