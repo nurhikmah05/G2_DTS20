@@ -20,9 +20,9 @@ function detail(clicked_id){
         asal.innerHTML = `Purwakarta`;
     }
     else if(clicked_id == 1){
-        img.innerHTML =  `<img class="team2" src="./assets/img/mis.jpg" alt="">`;
+        img.innerHTML =  `<img class="team2" src="./assets/img/nidya.png" alt="">`;
         name.innerHTML =  `Nidya`;
-        asal.innerHTML = `-`;
+        asal.innerHTML = `Samarinda`;
     }
 }
 
