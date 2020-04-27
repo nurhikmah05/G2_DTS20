@@ -4,7 +4,7 @@ function detail(clicked_id){
     const asal = document.getElementById("asal");
     if (clicked_id == 5){
         img.innerHTML =  `<img class="team2" src="./assets/img/kadri.jpg" alt="">`;
-        name.innerHTML =  `Pak Kadri`;
+        name.innerHTML =  `Muhammad Kadri`;
         asal.innerHTML = `Banda Aceh`;
     }else if(clicked_id == 4){
         img.innerHTML =  `<img class="team2" src="./assets/img/IMG_0337.png" alt="muhibbur">`;
